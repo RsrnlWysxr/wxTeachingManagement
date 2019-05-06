@@ -1,0 +1,54 @@
+/* pages/course/course.wxss */
+
+page {
+  height: 100%;
+  background-color: #c7d6f5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  margin-top: 450rpx;
+  display: flex;
+  flex-direction: row;
+  width: 500rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 5px;
+}
+
+.imge {
+  width: 42rpx;
+  height: 42rpx;
+  padding-top: 45rpx;
+}
+
+.qiandao {
+  background-color: #e8ccff;
+}
+
+.jianyan {
+  background-color: #ecad9e;
+}
+
+text {
+  padding-top: 35rpx;
+  font-size: 35rpx;
+  text-align: center;
+  font-weight: bold;
+}

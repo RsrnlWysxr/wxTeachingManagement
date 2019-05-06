@@ -1,0 +1,23 @@
+<!-- pages/login/login.wxml -->
+<view class="container">
+    <view class="row-1">
+        <view class="qiandao box" bind:tap="qiandao">
+            <image class="imge" src='/images/icon/kaoqin.png' />
+            <text>考勤</text>
+        </view>
+        <view class="zuoye box" bind:tap="zuoye">
+            <image class="imge" src='/images/icon/zuoye.png' />
+            <text>作业</text>
+        </view>
+    </view>
+    <view class="row-2">
+        <view class="kebiao box" bind:tap="kebiao">
+            <image class="imge" src='/images/icon/chaxun.png' />
+            <text>查询</text>
+        </view>
+        <view class="pingjiao box" bind:tap="pingjiao">
+            <image class="imge" src='/images/icon/pingjiao.png' />
+            <text>讨论</text>
+        </view>
+    </view>
+</view>

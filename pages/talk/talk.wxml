@@ -1,0 +1,13 @@
+<!-- pages/course/course.wxml -->
+<view class="container">
+    <view class="row">
+        <view class="qiandao box">
+            <image class="imge" src="/images/icon/taolun.png" />
+            <text>答疑讨论</text>
+        </view>
+        <view class="jianyan box">
+            <image class="imge" src="/images/icon/hudong.png" />
+            <text>课堂互动</text>
+        </view>
+    </view>
+</view>

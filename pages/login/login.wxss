@@ -1,0 +1,45 @@
+/* pages/login/login.wxss */
+page {
+  height: 100%;
+  background-color: #dceff3;
+}
+
+.container {
+margin-top: 200rpx;
+margin-bottom: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avater {
+  height: 170rpx;
+  width: 170rpx;
+  margin-bottom: 30rpx;
+}
+
+.welcome {
+  font-size: 40rpx;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+}
+
+input {
+  font-size: 32rpx;
+  width: 400rpx;
+  height: 75rpx;
+  border: 3rpx solid #999;
+  margin-top: 25rpx;
+  margin-bottom: 25rpx;
+  text-align: center;
+  border-radius: 8rpx;
+}
+
+.login{
+    margin-top: 25rpx;
+    font-size:32rpx;
+    line-height: 70rpx;
+    width: 220rpx;
+    height: 70rpx;
+}

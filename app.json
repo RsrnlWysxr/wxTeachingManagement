@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/talk/talk",
+    "pages/query/query",
+    "pages/task/task",
+    "pages/course/course",
+    "pages/user/user",
+    "pages/login/login"
+  ],
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarBackgroundColor": "dceff3"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon/undiqiu.png",
+        "selectedIconPath": "images/icon/diqiu.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "images/icon/unyonghu.png",
+        "selectedIconPath": "images/icon/yonghu.png"
+      }
+    ],
+    "borderStyle": "white"
+  }
+}

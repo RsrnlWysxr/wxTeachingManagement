@@ -1,0 +1,8 @@
+<!-- pages/login/login.wxml -->
+<view class="container">
+    <image class="avater" src="/images/avater/avart{{avaterIndex}}.png"/>
+    <text class="welcome">微信理工大, 为你而来</text>
+    <input class="account" type="number" placeholder="请在此处输入学号" bindblur="onAccount" />
+    <input class="pwd" placeholder="请在此处输入密码" password="{{true}}"  bindblur="onPwd"/>
+    <button class="login" bindtap="onLogin">登    陆</button>
+</view>

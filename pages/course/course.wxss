@@ -1,0 +1,77 @@
+/* pages/course/course.wxss */
+
+page {
+  height: 100%;
+  background-color: #eedffa;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shangke{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100rpx;
+  width: 500rpx;
+  height: 200rpx;
+  align-items: center; 
+  background-color: #fff;
+  border: 2rpx dotted #000;
+  border-radius: 32rpx;
+  margin-bottom: -300rpx;
+}
+
+.teacher,
+.course{
+  font-weight: bold;
+}
+
+.shangke text{
+  color: #666;
+  font-size: 32rpx;
+}
+
+.row {
+  margin-top: 450rpx;
+  display: flex;
+  flex-direction: row;
+  width: 500rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 5px;
+}
+
+.imge {
+  width: 42rpx;
+  height: 42rpx;
+  padding-top: 45rpx;
+}
+
+.qiandao {
+  background-color: #e9eb94;
+}
+
+.jianyan {
+  background-color: #99bbff;
+}
+
+.row text {
+  padding-top: 35rpx;
+  font-size: 35rpx;
+  text-align: center;
+  font-weight: bold;
+}

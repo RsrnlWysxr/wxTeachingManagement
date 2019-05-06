@@ -1,0 +1,19 @@
+<!-- pages/course/course.wxml -->
+<view class="container">
+    <view class="shangke" wx:if="{{showQiandao}}">
+        <text class='tishi'>本节课:</text>
+        <text class='teacher'>{{teacher}}</text>
+        <text class='course'>{{course}}</text>
+        <text class="anniu">请再次点击签到按钮进行签到</text>
+    </view>
+    <view class="row">
+        <view class="qiandao box">
+            <image class="imge" src="/images/icon/qiandao.png" bind:tap="qiandao" />
+            <text>上课签到</text>
+        </view>
+        <view class="jianyan box">
+            <image class="imge" src="/images/icon/jianyan.png" bind:tap="jianyan"/>
+            <text>随堂检验</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,36 @@
+<!-- pages/course/course.wxml -->
+<view class="container">
+    <view class="zuoyetijiao" wx:if="{{showZuoye}}">
+        <text>{{title}}</text>
+        <radio-group class="radio-group" bindchange="radioChange">
+            <label class="radio" wx:for="{{items}}">
+                <radio value="{{item.name}}" checked="{{item.checked}}" />
+                {{item.name}}
+            </label>
+        </radio-group>
+        <text class="tishi">{{tips}}</text>
+    </view>
+    <view class="zuoyetijiao" wx:if="{{showPingjia}}">
+        <text>当前作业清单:</text>
+        <radio-group class="radio-group" bindchange="radioChange">
+            <label class="radio" wx:for="{{items}}">
+                <radio value="{{item.name}}" checked="{{item.checked}}" />
+                {{item.name}}
+            </label>
+        </radio-group>
+        <text class="tishi">请选择一个并再次点击作业提交进行提交</text>
+    </view>
+    <view class="row">
+        <view class="qiandao box" bind:tap="tijiao">
+            <image class="imge" src="/images/icon/tijiao.png" />
+            <text>作业提交</text>
+        </view>
+        <view class="jianyan box" bind:tap='pingjia'>
+            <image class="imge" src="/images/icon/pingjia.png" />
+            <text>作业评价</text>
+        </view>
+    </view>
+    <view class="jiaoshi" wx:if="{{jiaoshi}}">
+        {{text}}
+    </view>
+</view>

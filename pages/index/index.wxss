@@ -1,0 +1,69 @@
+/* pages/login/login.wxss */
+page {
+  height: 100%;
+  background-color:#dceff3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-1,
+.row-2 {
+  width: 500rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.row-1 {
+  margin-top: 400rpx;
+  margin-bottom: 50rpx;
+}
+
+.row-2 {
+  margin-bottom: 400rpx;
+  margin-top: 50rpxl;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 5px;
+}
+
+text {
+  padding-top: 35rpx;
+  font-size: 35rpx;
+  text-align: center;
+  font-weight: bold;
+}
+
+.kebiao {
+  background-color: #e9eb94;
+}
+
+.qiandao {
+  background-color: #e8ccff;
+}
+
+.pingjiao {
+  background-color: #99bbff;
+}
+
+.zuoye {
+  background-color: #ecad9e;
+}
+
+.imge {
+  width: 42rpx;
+  height: 42rpx;
+  padding-top: 45rpx;
+}

@@ -1,0 +1,13 @@
+<!-- pages/course/course.wxml -->
+<view class="container">
+    <view class="row">
+        <view class="qiandao box">
+            <image class="imge" src="/images/icon/kebiao.png" />
+            <text>课表查询</text>
+        </view>
+        <view class="jianyan box">
+            <image class="imge" src="/images/icon/jianyan.png" />
+            <text>成绩查询</text>
+        </view>
+    </view>
+</view>
