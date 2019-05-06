@@ -1,0 +1,12 @@
+<!-- 传进来的数据,是一个展开后的对象,
+该对象由6个字符串组成 -->
+<template name="tb">
+    <view class="tbcontainer">
+        <view class="littlebox">{{No}}</view>
+        <view class="littlebox">{{one}}</view>
+        <view class="littlebox">{{two}}</view>
+        <view class="littlebox">{{three}}</view>
+        <view class="littlebox">{{four}}</view>
+        <view class="littlebox">{{five}}</view>
+    </view>
+</template>

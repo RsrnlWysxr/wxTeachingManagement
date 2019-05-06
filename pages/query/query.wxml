@@ -1,13 +1,28 @@
 <!-- pages/course/course.wxml -->
+<import src="timeTable-template/timeTable-template.wxml" />
 <view class="container">
+    <scroll-view scroll-y="{{true}}" class="timetable" wx:if="{{showTime}}">
+        <block wx:for="{{items}}">
+            <!-- item为数组元素,是一个对象 -->
+            <template is="tb" data="{{...item}}"></template>
+        </block>
+    </scroll-view>
     <view class="row">
-        <view class="qiandao box">
+        <view class="qiandao box" bind:tap="kebiao">
             <image class="imge" src="/images/icon/kebiao.png" />
             <text>课表查询</text>
         </view>
-        <view class="jianyan box">
+        <view class="jianyan box" bind:tap="chengji">
             <image class="imge" src="/images/icon/jianyan.png" />
             <text>成绩查询</text>
         </view>
     </view>
+    <scroll-view scroll-y="{{true}}" class="score-view" wx:if="{{showScore}}">
+        <block wx:for="{{scores}}">
+            <view class="score-box">
+                <view class="project">{{item.project}}</view>
+                <view class="score">{{item.score}}</view>
+            </view>
+        </block>
+    </scroll-view>
 </view>

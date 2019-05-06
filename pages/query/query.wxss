@@ -1,14 +1,30 @@
 /* pages/course/course.wxss */
+@import "timeTable-template/timeTable-template.wxss";
 
 page {
   height: 100%;
   background-color: #feffc7;
 }
 
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.timetable{
+  margin-top: 40rpx;
+  padding-top: 50rpx;
+  width: 700rpx;
+  height: 450rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px dotted #000000;
+  border-radius: 25rpx;
+  margin-bottom: -400rpx;
 }
 
 .row {
@@ -51,4 +67,41 @@ text {
   font-size: 35rpx;
   text-align: center;
   font-weight: bold;
+}
+
+.score-view{
+  background-color: #fff;
+  border: 1px dotted #000000;
+  border-radius: 25rpx;
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 350rpx;
+  width: 700rpx;
+}
+
+.score-box{
+  display: flex;
+  flex-direction: column;
+  height: 150rpx;
+}
+
+.project{
+  height: 70rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color:#888;
+  line-height: 70rpx;
+  text-align: center;
+  padding: 5rpx;
+}
+
+.score{
+  height: 70rpx;
+  font-size:28rpx;
+  color: #999;
+  line-height: 70rpx;
+  text-align: center;
+  padding: 5rpx;
 }

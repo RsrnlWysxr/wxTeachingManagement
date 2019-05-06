@@ -1,12 +1,13 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/discussion/discussion",
+    "pages/login/login",
     "pages/talk/talk",
     "pages/query/query",
     "pages/task/task",
     "pages/course/course",
-    "pages/user/user",
-    "pages/login/login"
+    "pages/user/user"
   ],
   "sitemapLocation": "sitemap.json",
   "window": {

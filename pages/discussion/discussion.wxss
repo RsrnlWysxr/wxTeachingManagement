@@ -1,0 +1,105 @@
+/* pages/discussion/discussion.wxss */
+page {
+  height: 100%;
+  background-color: #dceff3;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments{
+    overflow: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99%;
+    height: 900rpx;
+}
+
+.bgc{
+    background-color: #ccf3bd;
+    width: 98%;
+    border-radius: 10rpx;
+}
+
+.avater-name{
+    margin-top: 50rpx;
+    display: flex;
+    flex-direction: row;
+    height: 50rpx;
+    width: 98%;
+    background-color: #f5cfad;
+    border-radius: 10rpx;
+}
+
+.avater-name image{
+    height: 38rpx;
+    width: 38rpx;
+    padding-left: 5rpx;
+}
+
+.name{
+    font-size: 32rpx;
+    color: #666;
+    padding-left: 5rpx;
+}
+
+.time{
+    font-size: 22rpx;
+    color:#666;
+    margin-left: 280rpx;
+    padding-top: 5rpx;
+}
+
+.comment{
+    height: 200rpx;
+    width: 20%;
+    color: #666;
+    font-size:32rpx;
+    word-break: break-all;
+}
+
+.input{
+    border: 1rpx solid #aaa;
+    background-color: #fcfbc4;
+    border-radius: 30rpx;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rpx;   
+    width: 99%;
+    height: 18%;
+}
+
+.textarea{
+    margin: 5rpx;
+    padding: 20rpx;
+    font-size: 30rpx;
+    color: #777;
+    width:68%;
+}
+
+.avater-send{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:32%;
+    padding:3rpx;
+    border-left: 2rpx dotted #333;
+    border-radius: 8rpx;
+}
+
+.avater-send image{
+    width: 72rpx;
+    height: 72rpx;
+    margin: auto;
+}
+
+.avater-send button{
+    background-color: #fcc5fc;
+    color: #006464;    
+    margin: auto;
+}

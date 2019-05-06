@@ -1,0 +1,22 @@
+<!-- pages/discussion/discussion.wxml -->
+<view class="container">
+    <scroll-view class="comments" scroll-y="{{true}}">
+        <block wx:for="{{comments}}">
+            <view class="avater-name">
+                <image src="/images/avater/avart{{item.avater}}.png" />
+                <text class="name">{{item.name}}</text>
+                <text class="time">{{item.time}}</text>
+            </view>
+            <view class="bgc">
+                <text class="comment">{{item.comment}}</text>
+            </view>
+        </block>
+    </scroll-view>
+    <view class="input">
+        <textarea class="textarea" cols="l0" rows="5" placeholder="网上冲浪要有度，沉迷早晚会翻船" bindinput="updata" bindconfirm="sendto" value="{{text}}"></textarea>
+        <view class="avater-send">
+            <image src="/images/avater/avart{{avater}}.png" />
+            <button bind:tap="send">发送</button>
+        </view>
+    </view>
+</view>
