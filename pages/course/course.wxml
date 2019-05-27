@@ -7,12 +7,12 @@
         <text class="anniu">请再次点击签到按钮进行签到</text>
     </view>
     <view class="row">
-        <view class="qiandao box">
-            <image class="imge" src="/images/icon/qiandao.png" bind:tap="qiandao" />
+        <view class="qiandao box" bind:tap="qiandao">
+            <image class="imge" src="/images/icon/qiandao.png"  />
             <text>上课签到</text>
         </view>
-        <view class="jianyan box">
-            <image class="imge" src="/images/icon/jianyan.png" bind:tap="jianyan"/>
+        <view class="jianyan box" bind:tap="jianyan">
+            <image class="imge" src="/images/icon/jianyan.png" />
             <text>随堂检验</text>
         </view>
     </view>
